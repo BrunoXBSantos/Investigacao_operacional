@@ -1,0 +1,76 @@
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+Fase 1 50 paletes layout 1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+2450 variables, all binary
+99 constraints, all linear; 4900 nonzeros
+	49 equality constraints
+	50 inequality constraints
+1 linear objective; 2450 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 2977
+466 simplex iterations
+:     _varname[j] _var[j]    :=
+2      'x[1,2]'       1
+51     'x[2,1]'       1
+103    'x[3,3]'       1
+161    'x[4,11]'      1
+207    'x[5,7]'       1
+256    'x[6,6]'       1
+316    'x[7,16]'      1
+358    'x[8,8]'       1
+404    'x[9,4]'       1
+462    'x[10,12]'     1
+521    'x[11,21]'     1
+567    'x[12,17]'     1
+605    'x[13,5]'      1
+672    'x[14,22]'     1
+709    'x[15,9]'      1
+768    'x[16,18]'     1
+814    'x[17,14]'     1
+863    'x[18,13]'     1
+923    'x[19,23]'     1
+965    'x[20,15]'     1
+1026   'x[21,26]'     1
+1077   'x[22,27]'     1
+1131   'x[23,31]'     1
+1160   'x[24,10]'     1
+1219   'x[25,19]'     1
+1279   'x[26,29]'     1
+1332   'x[27,32]'     1
+1378   'x[28,28]'     1
+1441   'x[29,41]'     1
+1475   'x[30,25]'     1
+1536   'x[31,36]'     1
+1574   'x[32,24]'     1
+1637   'x[33,37]'     1
+1692   'x[34,42]'     1
+1733   'x[35,33]'     1
+1796   'x[36,46]'     1
+1820   'x[37,20]'     1
+1888   'x[38,38]'     1
+1930   'x[39,30]'     1
+1997   'x[40,47]'     1
+2043   'x[41,43]'     1
+2085   'x[42,35]'     1
+2134   'x[43,34]'     1
+2189   'x[44,39]'     1
+2244   'x[45,44]'     1
+2298   'x[46,48]'     1
+2340   'x[47,40]'     1
+2395   'x[48,45]'     1
+2449   'x[49,49]'     1
+;
+
+:_varname[j] _var[j]    :=
+;

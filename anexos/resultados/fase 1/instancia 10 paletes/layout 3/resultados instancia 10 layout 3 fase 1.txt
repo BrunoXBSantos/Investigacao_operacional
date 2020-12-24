@@ -1,0 +1,91 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 6905947
+   Password : FBnmTgWj
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-05-06 08:34:08
+   End      : 2019-05-06 08:34:14
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver gurobi_ampl.
+
+
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+
+10 f1 L3
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+Checking ampl.mod for gurobi_options...
+
+Checking ampl.com for gurobi_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-1.neos-server.org
+
+
+
+120 variables, all binary
+
+22 constraints, all linear; 240 nonzeros
+
+	10 equality constraints
+
+	12 inequality constraints
+
+1 linear objective; 120 nonzeros.
+
+
+
+Gurobi 8.1.0: threads=4
+
+Gurobi 8.1.0: optimal solution; objective 731
+
+37 simplex iterations
+
+:   _varname[j] _var[j]    :=
+
+2     'x[1,2]'      1
+
+13    'x[2,1]'      1
+
+28    'x[3,4]'      1
+
+39    'x[4,3]'      1
+
+55    'x[5,7]'      1
+
+65    'x[6,5]'      1
+
+78    'x[7,6]'      1
+
+94    'x[8,10]'     1
+
+105   'x[9,9]'      1
+
+116   'x[10,8]'     1
+
+;
+
+
+
+:_varname[j] _var[j]    :=
+
+;

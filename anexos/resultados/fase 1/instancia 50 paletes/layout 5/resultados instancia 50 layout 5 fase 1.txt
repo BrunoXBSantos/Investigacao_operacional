@@ -1,0 +1,96 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7031515
+   Password : EguhrZDi
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-04 13:15:30
+   End      : 2019-06-04 13:15:51
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 1
+layout 5
+50 paletes
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-4.neos-server.org
+
+2646 variables, all binary
+103 constraints, all linear; 5292 nonzeros
+	49 equality constraints
+	54 inequality constraints
+1 linear objective; 2646 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 1634
+396 simplex iterations
+:     _varname[j] _var[j]    :=
+10     'x[1,10]'      1
+55     'x[2,1]'       1
+110    'x[3,2]'       1
+181    'x[4,19]'      1
+244    'x[5,28]'      1
+274    'x[6,4]'       1
+337    'x[7,13]'      1
+389    'x[8,11]'      1
+463    'x[9,31]'      1
+508    'x[10,22]'     1
+554    'x[11,14]'     1
+610    'x[12,16]'     1
+655    'x[13,7]'      1
+748    'x[14,46]'     1
+759    'x[15,3]'      1
+839    'x[16,29]'     1
+901    'x[17,37]'     1
+923    'x[18,5]'      1
+995    'x[19,23]'     1
+1060   'x[20,34]'     1
+1100   'x[21,20]'     1
+1174   'x[22,40]'     1
+1200   'x[23,12]'     1
+1274   'x[24,32]'     1
+1335   'x[25,39]'     1
+1383   'x[26,33]'     1
+1419   'x[27,15]'     1
+1475   'x[28,17]'     1
+1555   'x[29,43]'     1
+1596   'x[30,30]'     1
+1661   'x[31,41]'     1
+1721   'x[32,47]'     1
+1749   'x[33,21]'     1
+1788   'x[34,6]'      1
+1874   'x[35,38]'     1
+1898   'x[36,8]'      1
+1969   'x[37,25]'     1
+2046   'x[38,48]'     1
+2101   'x[39,49]'     1
+2124   'x[40,18]'     1
+2212   'x[41,52]'     1
+2240   'x[42,26]'     1
+2292   'x[43,24]'     1
+2372   'x[44,50]'     1
+2420   'x[45,44]'     1
+2439   'x[46,9]'      1
+2519   'x[47,35]'     1
+2565   'x[48,27]'     1
+2628   'x[49,36]'     1
+;
+
+:_varname[j] _var[j]    :=
+;
