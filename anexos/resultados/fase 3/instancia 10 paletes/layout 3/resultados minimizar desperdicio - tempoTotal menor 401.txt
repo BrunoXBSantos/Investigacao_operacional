@@ -1,0 +1,42 @@
+
+Presolve eliminates 5 constraints.
+Adjusted problem:
+126 variables:
+	120 nonlinear variables
+	6 linear variables
+126 algebraic constraints, all linear; 526 nonzeros
+	16 equality constraints
+	110 inequality constraints
+100 logical constraints
+1 linear objective; 3 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 52
+1024 simplex iterations
+264 branch-and-cut nodes
+plus 1 simplex iteration for intbasis
+:  _varname[j] _var[j]    :=
+2    'x[1,2]'      1
+12   'x[2,2]'      1
+21   'x[3,1]'      1
+31   'x[4,1]'      1
+41   'x[5,1]'      1
+51   'x[6,1]'      1
+64   'x[7,4]'      1
+74   'x[8,4]'      1
+82   'x[9,2]'      1
+94   'x[10,4]'     1
+;
+
+:   _varname[j] _var[j]    :=
+101   'Hr[1]'      188
+102   'Hr[2]'       61
+105   'alt[1]'      79
+106   'alt[2]'     109
+108   'alt[4]'      61
+123   'des[9]'      30
+124   'des[10]'     22
+125   auxFO1       392
+126   auxFO2        52
+;
+

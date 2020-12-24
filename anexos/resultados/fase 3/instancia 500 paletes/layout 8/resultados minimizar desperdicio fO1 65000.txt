@@ -1,0 +1,50 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7050979
+   Password : xfAjeKSo
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-09 04:20:11
+   End      : 2019-06-09 12:20:19
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 3
+layout 8
+FO1<=65000
+FO2
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-2.neos-server.org
+
+Presolve eliminates 101 constraints.
+Adjusted problem:
+227054 variables:
+	226952 nonlinear variables
+	102 linear variables
+227054 algebraic constraints, all linear; 1124554 nonzeros
+	554 equality constraints
+	226500 inequality constraints
+226000 logical constraints
+1 linear objective; 3 nonzeros.
+
+Gurobi 8.1.0: threads=4
+
+ERROR: Your job was terminated because it exceeded the maximum allotted time for a job.
+
+Please refer to the NEOS Server FAQ (https://neos-guide.org/content/FAQ) for more information regarding job termination conditions.

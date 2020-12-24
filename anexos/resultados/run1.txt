@@ -1,0 +1,43 @@
+# option mosek_options "MSK_DPAR_MIO_MAX_TIME=6000";
+
+
+# option mintoamp_options 'maxtime=6000';
+
+
+# option xpress_options 'maxtime=6000';
+
+
+# option gurobi_options $gurobi_options 'timelim 60';
+
+
+# option cplex_options 'treememory=60000  time=6000';
+# option cplex_options 'backtrack=0.01 time=600'; 
+# option cplex_options 'branch=-1 time=27000'; 
+# option cplex_options 'cliques=3 covers=0 time=600'; 
+# option cplex_options 'zerohalfcuts=2 time=60'; 
+
+#set workmem 128
+#set mip strategy file 2
+#set mip limits treememory 15000
+
+# SCIPsetRealParam(scip, "limits/time", 600); #Em comando deu erro; em ficheiro a parte nao fez parar
+# option scip_options  "limits/time = 600"; #Nao deu erro, mas nao fez parar
+
+
+# option cbc_options "sec=6000";
+
+
+
+solve;
+
+#### Mostra todas as variáveis;
+
+#display _varname, _var;
+
+
+
+#### Mostra só as variáveis iguais a "1";
+display {j in 1.._nvars : 0<_var[j]<2} (_varname[j],_var[j]);
+
+# Mostra as variáveis com valores > 1
+display {j in 1.._nvars : 1<_var[j]} (_varname[j],_var[j]);

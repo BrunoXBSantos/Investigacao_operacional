@@ -1,0 +1,58 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 6907729
+   Password : cwdJPAlV
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-05-07 08:16:20
+   End      : 2019-05-07 08:16:35
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+
+You are using the solver gurobi_ampl.
+
+Checking ampl.mod for gurobi_options...
+
+Checking ampl.com for gurobi_options...
+
+Executing AMPL.
+
+processing data.
+
+processing commands.
+
+Executing on prod-exec-3.neos-server.org
+
+120 variables, all binary
+22 constraints, all linear; 240 nonzeros
+	10 equality constraints
+	12 inequality constraints
+1 linear objective; 120 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 388
+17 simplex iterations
+:   _varname[j] _var[j]    :=
+1     'x[1,1]'      1
+13    'x[2,1]'      1
+26    'x[3,2]'      1
+37    'x[4,1]'      1
+49    'x[5,1]'      1
+64    'x[6,4]'      1
+76    'x[7,4]'      1
+88    'x[8,4]'      1
+100   'x[9,4]'      1
+110   'x[10,2]'     1
+;
+
+:_varname[j] _var[j]    :=
+;

@@ -1,0 +1,54 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7051041
+   Password : xnGmiXRs
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-09 05:37:05
+   End      : 2019-06-09 05:48:36
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 3
+layout 9
+FO1
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-1.neos-server.org
+
+Presolve eliminates 101 constraints.
+Adjusted problem:
+227054 variables:
+	226952 nonlinear variables
+	102 linear variables
+227054 algebraic constraints, all linear; 1124554 nonzeros
+	554 equality constraints
+	226500 inequality constraints
+226000 logical constraints
+1 linear objective; 3 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: infeasible
+441277 simplex iterations
+No basis.
+No primal variables returned.
+:_varname[j] _var[j]    :=
+;
+
+:_varname[j] _var[j]    :=
+;

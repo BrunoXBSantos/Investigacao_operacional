@@ -1,0 +1,76 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7046798
+   Password : TJgfhQWA
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-08 18:20:37
+   End      : 2019-06-08 18:20:43
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 3
+FO2
+FO1<=320
+layout 2
+intancia de 10 paletes
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+Presolve eliminates 3 constraints.
+Adjusted problem:
+124 variables:
+	120 nonlinear variables
+	4 linear variables
+124 algebraic constraints, all linear; 524 nonzeros
+	14 equality constraints
+	110 inequality constraints
+100 logical constraints
+1 linear objective; 3 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 30
+1734 simplex iterations
+475 branch-and-cut nodes
+plus 1 simplex iteration for intbasis
+:  _varname[j] _var[j]    :=
+6    'x[1,6]'      1
+16   'x[2,6]'      1
+21   'x[3,1]'      1
+31   'x[4,1]'      1
+41   'x[5,1]'      1
+51   'x[6,1]'      1
+67   'x[7,7]'      1
+77   'x[8,7]'      1
+86   'x[9,6]'      1
+92   'x[10,2]'     1
+;
+
+:   _varname[j] _var[j]    :=
+101   'Hr[1]'      118
+102   'Hr[2]'      170
+103   'alt[1]'      79
+104   'alt[2]'      39
+108   'alt[6]'     109
+109   'alt[7]'      61
+121   'des[9]'      30
+123   auxFO1       315
+124   auxFO2        30
+;

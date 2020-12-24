@@ -1,0 +1,155 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7046900
+   Password : nefzCvHO
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-08 19:20:05
+   End      : 2019-06-08 19:20:15
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 3
+FO2
+FO1<=2300
+layout 6
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-3.neos-server.org
+
+Presolve eliminates 11 constraints.
+Adjusted problem:
+2561 variables:
+	2549 nonlinear variables
+	12 linear variables
+2561 algebraic constraints, all linear; 12361 nonzeros
+	61 equality constraints
+	2500 inequality constraints
+2450 logical constraints
+1 linear objective; 3 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective -1.186606369e-12
+13280 simplex iterations
+1053 branch-and-cut nodes
+plus 1 simplex iteration for intbasis
+:     _varname[j] _var[j]    :=
+12     'x[1,12]'      1
+62     'x[2,12]'      1
+107    'x[3,7]'       1
+156    'x[4,6]'       1
+206    'x[5,6]'       1
+261    'x[6,11]'      1
+305    'x[7,5]'       1
+355    'x[8,5]'       1
+410    'x[9,10]'      1
+453    'x[10,3]'      1
+506    'x[11,6]'      1
+554    'x[12,4]'      1
+620    'x[13,20]'     1
+662    'x[14,12]'     1
+713    'x[15,13]'     1
+762    'x[16,12]'     1
+802    'x[17,2]'      1
+856    'x[18,6]'      1
+915    'x[19,15]'     1
+953    'x[20,3]'      1
+1008   'x[21,8]'      1
+1066   'x[22,16]'     1
+1101   'x[23,1]'      1
+1151   'x[24,1]'      1
+1203   'x[25,3]'      1
+1300   'x[26,50]'     1
+1318   'x[27,18]'     1
+1376   'x[28,26]'     1
+1409   'x[29,9]'      1
+1467   'x[30,17]'     1
+1528   'x[31,28]'     1
+1567   'x[32,17]'     1
+1621   'x[33,21]'     1
+1671   'x[34,21]'     1
+1709   'x[35,9]'      1
+1759   'x[36,9]'      1
+1802   'x[37,2]'      1
+1873   'x[38,23]'     1
+1917   'x[39,17]'     1
+1977   'x[40,27]'     1
+2026   'x[41,26]'     1
+2098   'x[42,48]'     1
+2109   'x[43,9]'      1
+2153   'x[44,3]'      1
+2201   'x[45,1]'      1
+2264   'x[46,14]'     1
+2317   'x[47,17]'     1
+2371   'x[48,21]'     1
+2421   'x[49,21]'     1
+;
+
+:    _varname[j] _var[j]    :=
+2451   'Hr[1]'      247
+2452   'Hr[2]'      425
+2453   'Hr[3]'      425
+2454   'Hr[4]'      400
+2455   'Hr[5]'      436
+2456   'Hr[6]'      306
+2457   'Hr[7]'      118
+2458   'Hr[8]'      267
+2459   'Hr[9]'      148
+2460   'Hr[10]'     366
+2461   'alt[1]'      59
+2462   'alt[2]'      49
+2463   'alt[3]'      39
+2464   'alt[4]'      39
+2465   'alt[5]'      61
+2466   'alt[6]'      79
+2467   'alt[7]'      79
+2468   'alt[8]'      79
+2469   'alt[9]'     109
+2470   'alt[10]'     79
+2471   'alt[11]'     79
+2472   'alt[12]'    109
+2473   'alt[13]'     49
+2474   'alt[14]'    109
+2475   'alt[15]'     79
+2476   'alt[16]'     39
+2477   'alt[17]'    109
+2478   'alt[18]'    109
+2479   'alt[19]'     64
+2480   'alt[20]'     79
+2481   'alt[21]'    109
+2482   'alt[22]'    109
+2483   'alt[23]'    109
+2485   'alt[25]'    109
+2486   'alt[26]'    109
+2487   'alt[27]'    109
+2488   'alt[28]'     49
+2489   'alt[29]'     39
+2493   'alt[33]'     79
+2494   'alt[34]'     39
+2496   'alt[36]'     79
+2498   'alt[38]'    109
+2500   'alt[40]'     79
+2503   'alt[43]'    109
+2504   'alt[44]'     39
+2507   'alt[47]'    109
+2508   'alt[48]'    109
+2509   'alt[49]'     39
+2510   'alt[50]'    109
+2560   auxFO1      2296
+;

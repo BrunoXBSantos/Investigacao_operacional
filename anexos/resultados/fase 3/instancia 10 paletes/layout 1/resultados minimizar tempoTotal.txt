@@ -1,0 +1,112 @@
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7033997
+   Password : cOuJYkpd
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-05 18:10:50
+   End      : 2019-06-05 18:11:10
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 3 
+layout 1
+minimizar Temp total
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-5.neos-server.org
+
+*************************************************************
+
+   NEOS Server Version 5.0
+   Job#     : 7034014
+   Password : wZgbJuLo
+   User     : None
+   Solver   : milp:Gurobi:AMPL
+   Start    : 2019-06-05 18:17:02
+   End      : 2019-06-05 18:17:07
+   Host     : NEOS HTCondor Pool
+
+   Disclaimer:
+
+   This information is provided without any express or
+   implied warranty. In particular, there is no warranty
+   of any kind concerning the fitness of this
+   information  for any particular purpose.
+*************************************************************
+File exists
+You are using the solver gurobi_ampl.
+
+%% YOUR COMMENTS %%%%%%%%%%%%%%%%%%%%%%%
+fase 3 
+layout 1
+minimizar tempo total
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Checking ampl.mod for gurobi_options...
+Checking ampl.com for gurobi_options...
+Executing AMPL.
+processing data.
+processing commands.
+Executing on prod-exec-2.neos-server.org
+
+Presolve eliminates 2 constraints.
+Adjusted problem:
+124 variables:
+	120 nonlinear variables
+	4 linear variables
+124 algebraic constraints, all linear; 524 nonzeros
+	14 equality constraints
+	110 inequality constraints
+100 logical constraints
+1 linear objective; 3 nonzeros.
+
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 388
+26 simplex iterations
+1 branch-and-cut nodes
+plus 2 simplex iterations for intbasis
+:  _varname[j] _var[j]    :=
+1    'x[1,1]'      1
+11   'x[2,1]'      1
+21   'x[3,1]'      1
+32   'x[4,2]'      1
+41   'x[5,1]'      1
+56   'x[6,6]'      1
+62   'x[7,2]'      1
+72   'x[8,2]'      1
+82   'x[9,2]'      1
+96   'x[10,6]'     1
+;
+
+:   _varname[j] _var[j]    :=
+101   'Hr[1]'      218
+102   'Hr[2]'      109
+103   'alt[1]'     109
+104   'alt[2]'     109
+108   'alt[6]'     109
+115   'des[3]'      30
+116   'des[4]'      30
+117   'des[5]'      30
+118   'des[6]'      30
+119   'des[7]'      48
+120   'des[8]'      48
+121   'des[9]'      30
+122   'des[10]'     70
+123   auxFO1       388
+124   auxFO2       316
+;

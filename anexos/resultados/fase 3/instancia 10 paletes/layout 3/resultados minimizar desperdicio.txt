@@ -1,0 +1,30 @@
+Gurobi 8.1.0: threads=4
+Gurobi 8.1.0: optimal solution; objective 0
+156 simplex iterations
+23 branch-and-cut nodes
+plus 1 simplex iteration for intbasis
+:  _varname[j] _var[j]    :=
+7    'x[1,7]'      1
+17   'x[2,7]'      1
+30   'x[3,10]'     1
+40   'x[4,10]'     1
+50   'x[5,10]'     1
+51   'x[6,1]'      1
+62   'x[7,2]'      1
+72   'x[8,2]'      1
+90   'x[9,10]'     1
+99   'x[10,9]'     1
+;
+
+:   _varname[j] _var[j]    :=
+101   'Hr[1]'      140
+103   'Hr[3]'      148
+104   'Hr[4]'       79
+105   'alt[1]'      79
+106   'alt[2]'      61
+111   'alt[7]'     109
+113   'alt[9]'      39
+114   'alt[10]'     79
+125   auxFO1       790
+;
+
